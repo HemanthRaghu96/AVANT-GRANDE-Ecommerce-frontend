@@ -1,13 +1,13 @@
-# Ecommerce(typescript) Frontend
+# AVANT-GRANDE-Ecommerce Frontend
 
 An E-commerce (typescript)Application is nothing but an e-commerce store where a person gets items from a vendor for low prices and sells items for the customers for profit. \
 In this application I have used my own API for Users, Items, Users, Items, Customers, Admin, Product, and Orders. \
 For all the individual APIs I made CRUD operations like add, edit, view selected data, and delete in the UI. \
-I have used ReactJS,react-bootstrap, Axios,react-router-dom, and redux.
+I have used ReactJS,react-bootstrap, Axios,react-router-dom.
 Kindly view the API documentation for more details.
 
-Frontend Server link: https://hrets.netlify.app/
-API documentation :https://documenter.getpostman.com/view/32014275/2sA3XV7yyw
+Frontend Server link: 
+API documentation :
 
 This project is open source, 🚀 Give a Star ⭐️ & Fork to this project ... Happy coding! 🤩
 # React + TypeScript + Vite
