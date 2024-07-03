@@ -33,15 +33,15 @@ const Women = () => {
         <div className="w-[15%]">
           <h1 className="font-bold text-4xl">Women</h1>
           <ul className="flex flex-col">
-            <li className="mt-1 text-gray-500 font-semibold" onClick={() => setSelectedCategory('SeeAll')}>See all</li>
-            <li className="mt-1 text-gray-500 font-semibold" onClick={() => setSelectedCategory('Tops')}>Tops</li>
-            <li className="mt-1 text-gray-500 font-semibold" onClick={() => setSelectedCategory('Jeans')}>Jeans</li>
-            <li className="mt-1 text-gray-500 font-semibold" onClick={() => setSelectedCategory('Homewear')}>Homewear</li>
-            <li className="mt-1 text-gray-500 font-semibold" onClick={() => setSelectedCategory('Swimwear')}>Swimwear</li>
-            <li className="mt-1 text-gray-500 font-semibold" onClick={() => setSelectedCategory('Underwear')}>Underwear</li>
+            <li className="mt-1 text-gray-500 font-semibold cursor-pointer" onClick={() => setSelectedCategory('SeeAll')}>See all</li>
+            <li className="mt-1 text-gray-500 font-semibold cursor-pointer" onClick={() => setSelectedCategory('Tops')}>Tops</li>
+            <li className="mt-1 text-gray-500 font-semibold cursor-pointer" onClick={() => setSelectedCategory('Jeans')}>Jeans</li>
+            <li className="mt-1 text-gray-500 font-semibold cursor-pointer" onClick={() => setSelectedCategory('Homewear')}>Homewear</li>
+            <li className="mt-1 text-gray-500 font-semibold cursor-pointer" onClick={() => setSelectedCategory('Swimwear')}>Swimwear</li>
+            <li className="mt-1 text-gray-500 font-semibold cursor-pointer" onClick={() => setSelectedCategory('Underwear')}>Underwear</li>
           </ul>
         </div>
-        <div className="w-[85%]">
+        <div className="w-[85%] ">
         {renderContent()}
         </div>
       </div>
